@@ -24,7 +24,7 @@ function crawlChunk() {
   for (const tweet of tweets) {
     const tweet_p = tweet as HTMLElement;
     const tweetUser = tweet_p.innerText.split("\n")[1];
-    if (tweetUser === "@" + userId) {
+    if (tweetUser.toLowerCase() === "@" + userId.toLowerCase()) {
       set.add(tweet.textContent);
     }
   }
@@ -55,7 +55,7 @@ window.addEventListener("load", () => {
         set.clear();
         const note_click = document.querySelector(".tweet-counter-note") as HTMLDivElement;
         note_click.style.display = "flex";
-        id = setInterval(crawlChunk, 2000);
+        id = setInterval(crawlChunk, 1000);
       }
     }
   });
