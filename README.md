@@ -9,7 +9,7 @@ My approach to counting the number of tweets, including those with the hashtag [
 1. [こちらのページ](https://github.com/Ryoga-exe/tweet-counter-extension/releases)の Latest の付いたリリースから `tweet-counter-extension.zip` をダウンロードします
 1. ダウンロードした zip ファイルを展開します
 1. [chrome://extensions/](chrome://extensions/)を開き、右上の「デベロッパーモード」をオンにします
-1. 「パッケージ化されていない拡張機能を読み込む」から展開したフォルダの中にある `chrome-mv3-prod` を読み込みます
+2. 「パッケージ化されていない拡張機能を読み込む」から展開したフォルダの中にある `tweet-counter-extension` フォルダを読み込みます
 
 ## 使い方
 
