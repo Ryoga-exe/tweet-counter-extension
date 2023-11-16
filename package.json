@@ -1,7 +1,7 @@
 {
   "name": "tweet-counter-extension",
   "displayName": "Tweet counter extension",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "simple extension for counting tweets",
   "author": "Ryoga-exe <49950206+Ryoga-exe@users.noreply.github.com>",
   "license":"Apache-2.0",
