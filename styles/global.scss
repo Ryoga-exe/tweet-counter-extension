@@ -1,0 +1,24 @@
+.tweet-counter-div {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  display: block;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+.tweet-counter-note {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  padding: 25px;
+  font-size: 30px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 5000;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
