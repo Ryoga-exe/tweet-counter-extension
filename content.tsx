@@ -11,7 +11,7 @@ const set = new Set();
 
 function crawlChunk() {
   const beforeY = window.scrollY;
-  scrollBy(0, 1000);
+  scrollBy(0, window.innerHeight);
   const afterY = window.scrollY;
   if (beforeY === afterY) {
     clearInterval(id);
